@@ -53,3 +53,4 @@ Identified key trends, such as the dominance of Service Commercial spaces in the
 # Conclusion
 This project demonstrates the practical application of AWS services to streamline data analysis workflows. By leveraging modern tools, the analysis provided a clear view of retail trends in Victoria-Fraserview, supporting data-driven decision-making for stakeholders.
 
+

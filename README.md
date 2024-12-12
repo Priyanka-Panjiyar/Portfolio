@@ -28,6 +28,8 @@ The dataset contains 33,983 records collected between 2020 and 2023. After filte
 4. **Data Pipeline Design**:
 - Developed a visual ETL pipeline using AWS Glue to process and aggregate data.
 - Grouped data by retail categories to compute counts for each segment.
+![visual-etl](https://github.com/user-attachments/assets/81ec5ea8-57ff-45d1-945c-25ed462a7471)
+  
 5. **Data Enrichment**:
 - Enhanced datasets by integrating additional columns, such as "Year Recorded."
 6. **Data Protection**:

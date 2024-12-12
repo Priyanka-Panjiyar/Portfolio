@@ -12,6 +12,7 @@ To identify and analyze the distribution of retail categories, determining which
 
 ## Dataset
 The dataset contains 33,983 records collected between 2020 and 2023. After filtering for the Victoria-Fraserview area, 782 records were analyzed, detailing retail spaces categorized into Service Commercial, Convenience Goods, Food & Beverage, Comparison Goods, and more.
+![dataset](https://github.com/user-attachments/assets/d2574895-b383-469e-866a-d254bc994c64)
 
 ## Methodology
 1. **Data Ingestion**:

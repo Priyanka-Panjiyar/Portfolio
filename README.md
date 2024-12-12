@@ -4,6 +4,8 @@ Here are the projects I have done during my Clould Computing class in University
 ## Project Description
 This project focuses on analyzing retail categories within the Victoria-Fraserview geographic area using AWS Data Analytics Platform (DAP). The aim is to create a streamlined data pipeline to ingest, clean, transform, and analyze storefront inventory data, identifying trends and deriving actionable insights about retail spaces.
 
+![dap](https://github.com/user-attachments/assets/85907c80-35aa-45e0-b8de-db8de5dd59aa)
+
 ## Project Title
 Streamlined Retail Category Analysis with AWS
 

@@ -2,7 +2,9 @@
 ## Project Description
 This project focuses on analyzing retail categories within the Victoria-Fraserview geographic area using AWS Data Analytics Platform (DAP). The aim is to create a streamlined data pipeline to ingest, clean, transform, and analyze storefront inventory data, identifying trends and deriving actionable insights about retail spaces.
 
-![dap](https://github.com/user-attachments/assets/85907c80-35aa-45e0-b8de-db8de5dd59aa)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/85907c80-35aa-45e0-b8de-db8de5dd59aa" alt="Alt Text" width="750" height="500">
+</p>
 
 ## Project Title
 Streamlined Retail Category Analysis with AWS
@@ -13,7 +15,9 @@ To identify and analyze the distribution of retail categories, determining which
 ## Dataset
 The dataset contains 33,983 records collected between 2020 and 2023. After filtering for the Victoria-Fraserview area, 782 records were analyzed, detailing retail spaces categorized into Service Commercial, Convenience Goods, Food & Beverage, Comparison Goods, and more.
 
-![dataset](https://github.com/user-attachments/assets/d2574895-b383-469e-866a-d254bc994c64)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d2574895-b383-469e-866a-d254bc994c64" alt="Alt Text" width="750" height="450">
+</p>
 
 ## Methodology
 1. **Data Ingestion**:
@@ -24,15 +28,18 @@ AWS Glue DataBrew was utilized to analyze the dataset's quality and structure, f
 Unnecessary columns were removed, and formats were standardized to maintain uniformity. Missing values were handled using predefined rules, such as imputation or replacement, and invalid data entries were corrected to improve the dataset's reliability.
 4. **Data Pipeline Design**:
 A visual ETL (Extract, Transform, Load) pipeline was developed using AWS Glue, allowing for efficient data transformation and aggregation. The pipeline grouped data by retail categories to compute counts for each segment, aiding in trend analysis and insights generation.
-![visual-etl](https://github.com/user-attachments/assets/81ec5ea8-57ff-45d1-945c-25ed462a7471)
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/81ec5ea8-57ff-45d1-945c-25ed462a7471" alt="Alt Text" width="750" height="425">
+</p>
   
-5. **Data Enrichment**:
+6. **Data Enrichment**:
 Additional contextual information was integrated into the dataset by adding new columns, such as "Year Recorded." This step enhanced the dataset's analytical value by enabling temporal analysis and deeper insights.
-6. **Data Protection**:
+7. **Data Protection**:
 Data security was ensured by implementing encryption using AWS Key Management Service (KMS). This safeguarded sensitive data in all storage layers, protecting it against unauthorized access.
-7. **Data Governance**:
+8. **Data Governance**:
 Policies and processes were established to ensure data accuracy, integrity, and compliance with quality standards. Data quality checks, such as completeness and uniqueness rules, were implemented using AWS Glue to validate datasets. Failed and passed data outputs were organized into separate folders, ensuring that only high-quality data was used for further analysis and reporting.
-8. **Data Observability**:
+9. **Data Observability**:
 AWS CloudWatch was configured to monitor key metrics and pipeline performance in real-time. This included tracking bucket sizes, object counts, and setting up alarms for anomalies, ensuring data health and operational transparency.
 ## Exploratory Analysis:
 Identified key trends, such as the dominance of Service Commercial spaces in the area.
@@ -55,8 +62,11 @@ The project implemented a secure data management system using AWS KMS for encryp
 - **Visualizations**:
 The project provided visualizations that highlighted key trends and distributions within retail categories. Charts and graphs depicted insights, such as category-wise distribution and yearly trends, making complex data more understandable. These visual outputs facilitated better decision-making for stakeholders.
 
-![retail-count](https://github.com/user-attachments/assets/07be60b6-f07b-4e96-8b19-ff77d9deed79)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/07be60b6-f07b-4e96-8b19-ff77d9deed79" alt="Alt Text" width="750" height="425">
+</p>
+
 # Conclusion
-This project demonstrates the practical application of AWS services to streamline data analysis workflows. By leveraging modern tools, the analysis provided a clear view of retail trends in Victoria-Fraserview, supporting data-driven decision-making for stakeholders.
+This project demonstrates the practical application of AWS services to streamline data analysis workflows. By leveraging modern tools, the analysis provided a clear view of retail trends in Victoria-Fraserview, supporting data-driven decision-making for stakeholders. The robust data pipeline ensured efficiency, accuracy, and scalability, making it adaptable for similar projects in the future. Furthermore, the integration of data security and monitoring measures enhanced the reliability of the results, ensuring compliance with best practices. These insights empower stakeholders to optimize retail operations and plan strategic initiatives effectively.
 
 

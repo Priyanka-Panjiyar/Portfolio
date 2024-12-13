@@ -69,4 +69,42 @@ The project provided visualizations that highlighted key trends and distribution
 # Conclusion
 This project demonstrates the practical application of AWS services to streamline data analysis workflows. By leveraging modern tools, the analysis provided a clear view of retail trends in Victoria-Fraserview, supporting data-driven decision-making for stakeholders. The robust data pipeline ensured efficiency, accuracy, and scalability, making it adaptable for similar projects in the future. Furthermore, the integration of data security and monitoring measures enhanced the reliability of the results, ensuring compliance with best practices. These insights empower stakeholders to optimize retail operations and plan strategic initiatives effectively.
 
+# Project 2: Student Registration Office: Admission Process Analysis
+## Project Description 
+In this project, a dataset from the Student Registration Office is used to analyze and streamline the student admissions process. The data had to be cleaned, transformed, and analyzed in order to provide information on admission rates, applicant patterns, and typical problems with the registration process. Through the use of contemporary tools and a structured data pipeline, this initiative improved the admissions process's dependability and efficiency.
+
+## Project Title 
+Optimizing the Student Admission Process with Data Analysis
+
+## Objective 
+## Methodology 
+1)Data Ingestion:
+- Used Amazon S3 to organize raw, transformed, and curated data into dedicated buckets.
+- Implemented a structured folder hierarchy for better data management.
+Data Profiling:
+Analyzed data quality and structure using AWS Glue DataBrew.
+Verified dataset integrity with checks for duplicates and missing values.
+Data Cleaning:
+Removed unnecessary columns and standardized formats.
+Handled missing and invalid values using predefined rules.
+Data Pipeline Design:
+Developed a visual ETL pipeline using AWS Glue to process and aggregate data.
+Grouped data by retail categories to compute counts for each segment.
+Data Enrichment:
+Enhanced datasets by integrating additional columns, such as "Year Recorded."
+Data Protection:
+Secured data using AWS Key Management Service (KMS) encryption.
+Data Observability:
+Implemented AWS CloudWatch for real-time monitoring of data and pipeline metrics.
+## Tools and Technologies
+- AWS Services: S3, Glue, DataBrew, Athena, CloudWatch, KMS
+- Data Formats: CSV, Parquet
+- Visualization Tools: AWS Glue Visual ETL
+- Programming Languages: SQL for querying data in Athena
+## Deliverables
+- A cleaned and enriched dataset ready for analysis.
+- An ETL pipeline for aggregating and processing retail data.
+- Visualizations representing retail distribution and trends.
+- A secure, monitored data management solution.
+
 

@@ -29,7 +29,7 @@ Unnecessary columns were removed, and formats were standardized to maintain unif
 4. **Data Pipeline Design**:
 A visual ETL (Extract, Transform, Load) pipeline was developed using AWS Glue, allowing for efficient data transformation and aggregation. The pipeline grouped data by retail categories to compute counts for each segment, aiding in trend analysis and insights generation.  
 6. **Data Enrichment**:
-Additional contextual information was integrated into the dataset by adding new columns, such as "Year Recorded." This step enhanced the dataset's analytical value by enabling temporal analysis and deeper insights.
+Additional I utilized AWS Glue Data Catalog to organize and manage metadata, making the dataset more accessible and easier to analyze. Subsequently, I used SQL queries in AWS Athena to perform advanced data aggregation and extract actionable insights from the enriched dataset efficiently.
 7. **Data Protection**:
 Data security was ensured by implementing encryption using AWS Key Management Service (KMS). This safeguarded sensitive data in all storage layers, protecting it against unauthorized access.
 8. **Data Governance**:
@@ -57,7 +57,7 @@ The project implemented a secure data management system using AWS KMS for encryp
 The project provided visualizations that highlighted key trends and distributions within retail categories. Charts and graphs depicted insights, such as category-wise distribution and yearly trends, making complex data more understandable. These visual outputs facilitated better decision-making for stakeholders.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/07be60b6-f07b-4e96-8b19-ff77d9deed79" alt="Alt Text" width="750" height="425">
+  <img src="https://github.com/user-attachments/assets/1342231d-29cc-48f6-96dc-0169d83d415b" alt="Alt Text" width="750" height="500">
 </p>
 
 # Conclusion
@@ -71,6 +71,8 @@ In this project, a dataset from the Student Registration Office is used to analy
 Optimizing the Student Admission Process with Data Analysis
 
 ## Objective 
+The primary objective was to ensure data integrity, analyze key metrics related to student applications. This involved identifying inconsistencies, trends, and areas of improvement in the workflow.
+
 ## Methodology 
 1) **Data Ingestion**:
 - The dataset was organized into raw, transformed, and curated formats for efficient storage and access.
@@ -108,5 +110,7 @@ Quality checks, including completeness and uniqueness rules, were implemented to
 - An ETL pipeline for aggregating and processing retail data.
 - Visualizations representing retail distribution and trends.
 - A secure, monitored data management solution.
+## Conclusion 
+This project successfully demonstrated the application of advanced data analysis techniques to optimize the student admission process. By implementing a structured data pipeline and ensuring data quality through governance and protection measures, the analysis provided actionable insights into applicant trends and process bottlenecks. The deliverables, including a cleaned dataset, visualizations, and a secure data management solution, empower stakeholders to make informed decisions. This structured approach to data analysis not only enhances operational efficiency but also supports a seamless and fair admission experience for applicants.
 
 

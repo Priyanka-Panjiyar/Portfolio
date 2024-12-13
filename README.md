@@ -27,12 +27,7 @@ AWS Glue DataBrew was utilized to analyze the dataset's quality and structure, f
 3. **Data Cleaning**:
 Unnecessary columns were removed, and formats were standardized to maintain uniformity. Missing values were handled using predefined rules, such as imputation or replacement, and invalid data entries were corrected to improve the dataset's reliability.
 4. **Data Pipeline Design**:
-A visual ETL (Extract, Transform, Load) pipeline was developed using AWS Glue, allowing for efficient data transformation and aggregation. The pipeline grouped data by retail categories to compute counts for each segment, aiding in trend analysis and insights generation.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/81ec5ea8-57ff-45d1-945c-25ed462a7471" alt="Alt Text" width="750" height="425">
-</p>
-  
+A visual ETL (Extract, Transform, Load) pipeline was developed using AWS Glue, allowing for efficient data transformation and aggregation. The pipeline grouped data by retail categories to compute counts for each segment, aiding in trend analysis and insights generation.  
 6. **Data Enrichment**:
 Additional contextual information was integrated into the dataset by adding new columns, such as "Year Recorded." This step enhanced the dataset's analytical value by enabling temporal analysis and deeper insights.
 7. **Data Protection**:
@@ -41,8 +36,7 @@ Data security was ensured by implementing encryption using AWS Key Management Se
 Policies and processes were established to ensure data accuracy, integrity, and compliance with quality standards. Data quality checks, such as completeness and uniqueness rules, were implemented using AWS Glue to validate datasets. Failed and passed data outputs were organized into separate folders, ensuring that only high-quality data was used for further analysis and reporting.
 9. **Data Observability**:
 AWS CloudWatch was configured to monitor key metrics and pipeline performance in real-time. This included tracking bucket sizes, object counts, and setting up alarms for anomalies, ensuring data health and operational transparency.
-## Exploratory Analysis:
-Identified key trends, such as the dominance of Service Commercial spaces in the area.
+
 ## Tools and Technologies
 - **AWS Services**:
 The project utilized AWS S3 for organizing data into raw, transformed, and curated buckets, enabling efficient data storage and access. AWS Glue and DataBrew were key in building the ETL pipeline, automating data profiling, cleaning, and transformation. Other services like AWS Athena supported SQL-based querying, CloudWatch enabled real-time monitoring, and KMS ensured robust encryption for data security.
@@ -78,24 +72,32 @@ Optimizing the Student Admission Process with Data Analysis
 
 ## Objective 
 ## Methodology 
-1)Data Ingestion:
-- Used Amazon S3 to organize raw, transformed, and curated data into dedicated buckets.
-- Implemented a structured folder hierarchy for better data management.
-Data Profiling:
-Analyzed data quality and structure using AWS Glue DataBrew.
-Verified dataset integrity with checks for duplicates and missing values.
-Data Cleaning:
-Removed unnecessary columns and standardized formats.
-Handled missing and invalid values using predefined rules.
-Data Pipeline Design:
-Developed a visual ETL pipeline using AWS Glue to process and aggregate data.
-Grouped data by retail categories to compute counts for each segment.
-Data Enrichment:
-Enhanced datasets by integrating additional columns, such as "Year Recorded."
-Data Protection:
-Secured data using AWS Key Management Service (KMS) encryption.
-Data Observability:
-Implemented AWS CloudWatch for real-time monitoring of data and pipeline metrics.
+1) **Data Ingestion**:
+- The dataset was organized into raw, transformed, and curated formats for efficient storage and access.
+- A structured folder hierarchy was created to streamline data management and processing workflows.
+2) **Data Profiling**:
+- The dataset was analyzed using tools like AWS Glue DataBrew to assess quality and structure.
+- Issues such as duplicates, missing values, and inconsistencies were identified and documented for resolution.
+3) **Data Cleaning**:
+- Unnecessary columns were removed, and all data formats were standardized to maintain consistency.
+- Missing and invalid data entries were addressed using imputation techniques and predefined rules.
+4) **Data Enrichment**:
+- Additional fields, such as demographic details and application submission dates, were added to enhance the dataset.
+- The enriched dataset provided a comprehensive view, enabling deeper analysis and actionable insights.
+5) **Data Pipeline Design**:
+- An ETL pipeline was developed using AWS Glue, automating data transformation and aggregation processes.
+- Applicants were grouped by key attributes like program preferences and admission status to identify trends and patterns.
+6) **Data Protection**:
+- Encryption methods were applied using AWS Key Management Service (KMS) to safeguard sensitive applicant information.
+- Security policies ensured compliance with data protection regulations, protecting privacy and confidentiality.
+7) **Data Governance**:
+- Policies and rules were established to ensure data accuracy, completeness, and integrity.
+Quality checks, including completeness and uniqueness rules, were implemented to validate data.
+- Data that failed governance checks was isolated in designated folders, ensuring only high-quality data was used for reporting and analysis.
+8) **Data Observability**:
+- AWS CloudWatch was configured to monitor pipeline performance and data health in real-time.
+- Alerts and notifications were set up to detect anomalies, such as spikes in missing values or irregular patterns.
+
 ## Tools and Technologies
 - AWS Services: S3, Glue, DataBrew, Athena, CloudWatch, KMS
 - Data Formats: CSV, Parquet

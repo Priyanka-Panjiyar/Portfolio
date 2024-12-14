@@ -188,11 +188,8 @@ To summarize the distribution of content across sections and subsections, provid
 
 #### **1. Data Aggregation**
 - Removed unnecessary columns 
-- Grouped data by `Section` and `Subsection` to count the occurrences of each.
+- Grouped datato count the occurrences of each.
 - Calculated the percentage distribution of content across sections.
-
-#### **2. Visualization**
-- Created dashboard to represent 
 
 #### **Outputs**
 - Stores
@@ -213,38 +210,29 @@ To uncover patterns and trends within the dataset, such as identifying detailed 
 ### Methodology
 
 #### **1. Data Enrichment**
-- Added a `Content Length` column to measure the number of words or characters in each section.
-- Derived a `Content Density` metric by correlating section lengths with page numbers.
+- Added a column to measure the number of words or characters in each section.
+- Derived a metric by correlating section lengths with page numbers.
 
 #### **2. Data Analysis**
 - Analyzed content length to identify the most detailed policy sections.
 - Examined correlations between page numbers and content density to understand the distribution of information across the document.
 
-#### **3. Visualization**
-- Created histograms in Excel to illustrate the distribution of content lengths.
-- Generated scatter plots to analyze the correlation between page numbers and section lengths.
 
 #### **Outputs**
-- Visualizations highlighting the most detailed sections and their density trends across the document.
+- The dataset highlights the most detailed sections and their density trends across the document.
 
 ---
 
 ## Tools and Technologies
-
-- **Data Cleaning and Structuring**: Excel
 - **File Formats**: Excel, CSV, Parquet
-- **Visualization**: Excel (charts and graphs)
 
 ---
 
 ## Deliverables
 
 - A structured dataset saved in:
-  - **Excel** format for detailed editing and manual use.
-  - **CSV** format for sharing and lightweight analysis.
+   - **CSV** format for sharing and lightweight analysis.
   - **Parquet** format for optimized storage and integration into analytics tools.
-- Visual reports and dashboards summarizing the document's structure, focus areas, and patterns.
-
 ---
 
 ## Conclusion

@@ -132,7 +132,10 @@ To analyze the distribution of retail categories over time, identifying yearly t
 ## Conclusion
 This project demonstrated the use of AWS services to analyze retail category data efficiently. Through data wrangling, descriptive analysis, and exploratory analysis, insights were derived to support stakeholders in decision-making. The structured approach, combined with secure data management and governance, ensures scalability and reliability for similar projects.
 
-![Flowchart drawio](https://github.com/user-attachments/assets/1d95e9a8-75cc-4c88-af06-7ed7de8e06b3)
+<p>
+  <img src="https://github.com/user-attachments/assets/1d95e9a8-75cc-4c88-af06-7ed7de8e06b3" alt="Description of Image" width="800" height="800" align="center">
+</p>
+
 
 # Project2: Student Rights and Responsibilities Procedure Analysis
 

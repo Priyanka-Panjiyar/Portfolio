@@ -74,8 +74,8 @@ To summarize key metrics, including the count of retail categories and distribut
     - **User folder** (CSV format) for stakeholders.
     - **System folder** (Parquet format) for automation.
 
-#### **2. Visualization**
-- Created dashboards to represent the count of retail categories:
+- **Results**
+- Here is the result to represent the count of retail categories:
   - **Service Commercial**: 80
   - **Food & Beverage**: 37
   - **Convenience Goods**: 41
@@ -83,7 +83,6 @@ To summarize key metrics, including the count of retail categories and distribut
 
 ### Tools and Technologies
 - **AWS Services**: Glue Visual ETL, Athena
-- **Visualization Tools**: Tableau, AWS QuickSight
 
 ### Deliverables
 - ETL pipeline output stored in structured S3 folders.
@@ -100,7 +99,7 @@ This phase explored trends in retail category counts over the years (2020–2023
 **Exploratory Analysis of Retail Category Trends**
 
 ### Objective
-To analyze the distribution of retail categories over time, identifying yearly trends in active businesses and vacant properties.
+To analyze the distribution of retail categories over time, identifying yearly trends in active businesses.
 
 ### Methodology
 
@@ -118,11 +117,11 @@ To analyze the distribution of retail categories over time, identifying yearly t
   - Stored Parquet output in `retail-category-by-year/System`.
 
 #### **3. Visualization**
-- Generated time-series charts showing trends in retail categories from 2020 to 2023.
+- Data flow diagram with Visual ETL.
 
 ### Tools and Technologies
 - **AWS Services**: Glue Visual ETL, Athena
-- **Visualization Tools**: Tableau, AWS QuickSight
+
 
 ### Deliverables
 - Yearly insights into retail category counts.
@@ -140,7 +139,7 @@ This project demonstrated the use of AWS services to analyze retail category dat
 ## Data Wrangling
 
 ### Project Description
-This phase involved organizing and structuring the dataset extracted from the "Student Rights and Responsibilities Procedure" document. The goal was to prepare the data for analysis by cleaning and formatting it into structured datasets saved in Excel, CSV, and Parquet formats.
+This phase involved organizing and structuring the dataset extracted from the "Student Rights and Responsibilities Procedure" document. The goal was to prepare the data for analysis by cleaning and formatting it into structured datasets.
 
 ### Project Title
 **Data Wrangling for Policy Analysis**
@@ -158,25 +157,21 @@ The dataset included sections from the policy document, organized with attribute
 ### Methodology
 
 #### **1. Data Ingestion**
-- Extracted text from the PDF using tools like Adobe Acrobat or other PDF processing software.
-- Organized the raw data into Excel files for easy access and editing.
+- created three Amazon S3 bucket - raw, transform, and curated.
+- Uploaded the dataset in the raw bucket with "Standard" storage class
 
 #### **2. Data Profiling**
 - Reviewed the dataset for missing values, duplicates, and inconsistencies.
-- Ensured all critical fields (`Section`, `Subsection`, `Content`, and `Page`) were present and populated.
+- Ensured all critical fields were present and populated.
 
 #### **3. Data Cleaning**
 - Removed duplicate entries and redundant sections.
-- Standardized formatting for section titles and content (e.g., title case for section headers).
+- Standardized formatting for section titles and content.
 - Addressed missing values by merging related sections or adding placeholders.
 
-#### **Outputs**
-- Saved the cleaned dataset in:
-  - **Excel** format for manual review and editing.
-  - **CSV** format for lightweight sharing and further analysis.
-  - **Parquet** format for optimized storage and use in advanced analytics tools.
-
----
+#### **Deliverables**
+- Cleaned dataset stored in structured S3 buckets.
+- profiling results for data insights and improved quality.
 
 ## Descriptive Analysis
 
@@ -192,15 +187,15 @@ To summarize the distribution of content across sections and subsections, provid
 ### Methodology
 
 #### **1. Data Aggregation**
+- Removed unnecessary columns 
 - Grouped data by `Section` and `Subsection` to count the occurrences of each.
 - Calculated the percentage distribution of content across sections.
 
 #### **2. Visualization**
-- Created bar charts in Excel to display the frequency of policy sections.
-- Generated pie charts to represent the percentage of content attributed to key topics.
+- Created dashboard to represent 
 
 #### **Outputs**
-- Visual dashboards and summary reports highlighting the document's structure and focus areas.
+- Stores
 
 ---
 

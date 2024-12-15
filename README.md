@@ -195,7 +195,7 @@ To summarize the distribution of content across sections and subsections, provid
 - Calculated the percentage distribution of content across sections.
 
 #### **Outputs**
-- Stores
+- Detailed sections and their density trends across the document. 
 
 ---
 

@@ -234,9 +234,8 @@ To uncover patterns and trends within the dataset, such as identifying detailed 
 ## Deliverables
 
 - A structured dataset saved in:
-   - **CSV** format for sharing and lightweight analysis.
+  - **CSV** format for sharing and lightweight analysis.
   - **Parquet** format for optimized storage and integration into analytics tools.
----
 
 ## Conclusion
 This project demonstrates a structured approach to extracting and analyzing policy data. Through data wrangling, the dataset was cleaned and prepared for analysis, ensuring accuracy and completeness. Descriptive analysis provided a clear summary of the policy structure, while exploratory analysis uncovered detailed insights into content density and focus areas. The structured outputs in Excel, CSV, and Parquet formats provide a versatile foundation for further use and sharing.
